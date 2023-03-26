@@ -1,0 +1,28 @@
+/* with out local storage*/
+/* .card {
+    border: 1px solid rgb(136, 13, 13);
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: yellow;
+  } */
+
+  /* with  local storage*/
+
+  .card {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .card.selected {
+    background-color: #f0f0f0;
+  }
